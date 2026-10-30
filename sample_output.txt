@@ -1,0 +1,365 @@
+=========================================================
+    STUDENT DATABASE MANAGEMENT SYSTEM USING HASHING
+        (Linear Probing - with & without replacement)
+=========================================================
+ Hash function : h(rollNo) = rollNo mod 15
+ Fields        : Roll No (key), Name, DSA Marks, Division
+=========================================================
+
+=================== MAIN MENU ======================
+  1. Insert a new student record
+  2. Search a student (by Roll No)
+  3. Modify a student record
+  4. Delete a student record
+  5. Display hash table(s)
+  6. Compare collision handling techniques
+  0. Exit
+====================================================
+Enter your choice : 
+---------------- INSERT STUDENT RECORD ---------------
+Enter Roll No (key)          : Enter Name                   : Enter DSA Marks (out of 100) : Enter Division (A/B/...)     : 
+  [Linear Probing WITHOUT Replacement] Roll No 10 : home index = 10, final position = 10, collisions = 0
+  [Linear Probing WITH Replacement] Roll No 10 : home index = 10, final position = 10, collisions = 0
+
+=================== MAIN MENU ======================
+  1. Insert a new student record
+  2. Search a student (by Roll No)
+  3. Modify a student record
+  4. Delete a student record
+  5. Display hash table(s)
+  6. Compare collision handling techniques
+  0. Exit
+====================================================
+Enter your choice : 
+---------------- INSERT STUDENT RECORD ---------------
+Enter Roll No (key)          : Enter Name                   : Enter DSA Marks (out of 100) : Enter Division (A/B/...)     : 
+  [Linear Probing WITHOUT Replacement] Roll No 25 : home index = 10, final position = 11, collisions = 1
+  [Linear Probing WITH Replacement] Roll No 25 : home index = 10, final position = 11, collisions = 1
+
+=================== MAIN MENU ======================
+  1. Insert a new student record
+  2. Search a student (by Roll No)
+  3. Modify a student record
+  4. Delete a student record
+  5. Display hash table(s)
+  6. Compare collision handling techniques
+  0. Exit
+====================================================
+Enter your choice : 
+---------------- INSERT STUDENT RECORD ---------------
+Enter Roll No (key)          : Enter Name                   : Enter DSA Marks (out of 100) : Enter Division (A/B/...)     : 
+  [Linear Probing WITHOUT Replacement] Roll No 40 : home index = 10, final position = 12, collisions = 2
+  [Linear Probing WITH Replacement] Roll No 40 : home index = 10, final position = 12, collisions = 2
+
+=================== MAIN MENU ======================
+  1. Insert a new student record
+  2. Search a student (by Roll No)
+  3. Modify a student record
+  4. Delete a student record
+  5. Display hash table(s)
+  6. Compare collision handling techniques
+  0. Exit
+====================================================
+Enter your choice : 
+---------------- INSERT STUDENT RECORD ---------------
+Enter Roll No (key)          : Enter Name                   : Enter DSA Marks (out of 100) : Enter Division (A/B/...)     : 
+  [Linear Probing WITHOUT Replacement] Roll No 26 : home index = 11, final position = 13, collisions = 2
+  [Linear Probing WITH Replacement] Roll No 26 : home index = 11, final position = 11, collisions = 4
+
+=================== MAIN MENU ======================
+  1. Insert a new student record
+  2. Search a student (by Roll No)
+  3. Modify a student record
+  4. Delete a student record
+  5. Display hash table(s)
+  6. Compare collision handling techniques
+  0. Exit
+====================================================
+Enter your choice : 
+---------------- INSERT STUDENT RECORD ---------------
+Enter Roll No (key)          : Enter Name                   : Enter DSA Marks (out of 100) : Enter Division (A/B/...)     : 
+  [Linear Probing WITHOUT Replacement] Roll No 55 : home index = 10, final position = 14, collisions = 4
+  [Linear Probing WITH Replacement] Roll No 55 : home index = 10, final position = 14, collisions = 4
+
+=================== MAIN MENU ======================
+  1. Insert a new student record
+  2. Search a student (by Roll No)
+  3. Modify a student record
+  4. Delete a student record
+  5. Display hash table(s)
+  6. Compare collision handling techniques
+  0. Exit
+====================================================
+Enter your choice : 
+---------------- INSERT STUDENT RECORD ---------------
+Enter Roll No (key)          : Enter Name                   : Enter DSA Marks (out of 100) : Enter Division (A/B/...)     : 
+  [Linear Probing WITHOUT Replacement] Roll No 11 : home index = 11, final position = 0, collisions = 4
+  [Linear Probing WITH Replacement] Roll No 11 : home index = 11, final position = 0, collisions = 4
+
+=================== MAIN MENU ======================
+  1. Insert a new student record
+  2. Search a student (by Roll No)
+  3. Modify a student record
+  4. Delete a student record
+  5. Display hash table(s)
+  6. Compare collision handling techniques
+  0. Exit
+====================================================
+Enter your choice : 
+---------------- INSERT STUDENT RECORD ---------------
+Enter Roll No (key)          : Enter Name                   : Enter DSA Marks (out of 100) : Enter Division (A/B/...)     : 
+  [Linear Probing WITHOUT Replacement] Roll No 21 : home index = 6, final position = 6, collisions = 0
+  [Linear Probing WITH Replacement] Roll No 21 : home index = 6, final position = 6, collisions = 0
+
+=================== MAIN MENU ======================
+  1. Insert a new student record
+  2. Search a student (by Roll No)
+  3. Modify a student record
+  4. Delete a student record
+  5. Display hash table(s)
+  6. Compare collision handling techniques
+  0. Exit
+====================================================
+Enter your choice : 
+---------------- INSERT STUDENT RECORD ---------------
+Enter Roll No (key)          : Enter Name                   : Enter DSA Marks (out of 100) : Enter Division (A/B/...)     : 
+  [Linear Probing WITHOUT Replacement] Roll No 31 : home index = 1, final position = 1, collisions = 0
+  [Linear Probing WITH Replacement] Roll No 31 : home index = 1, final position = 1, collisions = 0
+
+=================== MAIN MENU ======================
+  1. Insert a new student record
+  2. Search a student (by Roll No)
+  3. Modify a student record
+  4. Delete a student record
+  5. Display hash table(s)
+  6. Compare collision handling techniques
+  0. Exit
+====================================================
+Enter your choice : 
+Show (1) Without replacement only, (2) With replacement only, (3) Both : 
+
+  HASH TABLE : Linear Probing WITHOUT Replacement
+  -------------------------------------------------------------------------------
+  |  Idx | Home | Roll No | Name           |  Marks |  Div |    Status |
+  -------------------------------------------------------------------------------
+  |    0 |    0 |      11 | Arjun Shinde   |   65.0 |    A |  OCCUPIED |
+  |    1 |    1 |      31 | Omkar Bhosale  |   74.0 |    A |  OCCUPIED |
+  |    2 |    2 |       - | -              |      - |    - |     EMPTY |
+  |    3 |    3 |       - | -              |      - |    - |     EMPTY |
+  |    4 |    4 |       - | -              |      - |    - |     EMPTY |
+  |    5 |    5 |       - | -              |      - |    - |     EMPTY |
+  |    6 |    6 |      21 | Pooja Chavan   |   79.0 |    B |  OCCUPIED |
+  |    7 |    7 |       - | -              |      - |    - |     EMPTY |
+  |    8 |    8 |       - | -              |      - |    - |     EMPTY |
+  |    9 |    9 |       - | -              |      - |    - |     EMPTY |
+  |   10 |   10 |      10 | Anaya Deshmukh |   85.0 |    A |  OCCUPIED |
+  |   11 |   11 |      25 | Rohan Patil    |   72.0 |    A |  OCCUPIED |
+  |   12 |   12 |      40 | Shravani Pardeshi |   91.0 |    A |  OCCUPIED |
+  |   13 |   13 |      26 | Ishaan Joshi   |   78.0 |    B |  OCCUPIED |
+  |   14 |   14 |      55 | Sneha Kulkarni |   88.0 |    B |  OCCUPIED |
+  -------------------------------------------------------------------------------
+  Total records stored : 8 / 15
+
+  HASH TABLE : Linear Probing WITH Replacement
+  -------------------------------------------------------------------------------
+  |  Idx | Home | Roll No | Name           |  Marks |  Div |    Status |
+  -------------------------------------------------------------------------------
+  |    0 |    0 |      11 | Arjun Shinde   |   65.0 |    A |  OCCUPIED |
+  |    1 |    1 |      31 | Omkar Bhosale  |   74.0 |    A |  OCCUPIED |
+  |    2 |    2 |       - | -              |      - |    - |     EMPTY |
+  |    3 |    3 |       - | -              |      - |    - |     EMPTY |
+  |    4 |    4 |       - | -              |      - |    - |     EMPTY |
+  |    5 |    5 |       - | -              |      - |    - |     EMPTY |
+  |    6 |    6 |      21 | Pooja Chavan   |   79.0 |    B |  OCCUPIED |
+  |    7 |    7 |       - | -              |      - |    - |     EMPTY |
+  |    8 |    8 |       - | -              |      - |    - |     EMPTY |
+  |    9 |    9 |       - | -              |      - |    - |     EMPTY |
+  |   10 |   10 |      10 | Anaya Deshmukh |   85.0 |    A |  OCCUPIED |
+  |   11 |   11 |      26 | Ishaan Joshi   |   78.0 |    B |  OCCUPIED |
+  |   12 |   12 |      40 | Shravani Pardeshi |   91.0 |    A |  OCCUPIED |
+  |   13 |   13 |      25 | Rohan Patil    |   72.0 |    A |  OCCUPIED |
+  |   14 |   14 |      55 | Sneha Kulkarni |   88.0 |    B |  OCCUPIED |
+  -------------------------------------------------------------------------------
+  Total records stored : 8 / 15
+
+=================== MAIN MENU ======================
+  1. Insert a new student record
+  2. Search a student (by Roll No)
+  3. Modify a student record
+  4. Delete a student record
+  5. Display hash table(s)
+  6. Compare collision handling techniques
+  0. Exit
+====================================================
+Enter your choice : 
+---------------- SEARCH STUDENT RECORD ---------------
+Enter Roll No to search      : 
+  WITHOUT replacement : FOUND at index 13 (comparisons : 3)
+  WITH replacement    : FOUND at index 11 (comparisons : 1)
+
+=================== MAIN MENU ======================
+  1. Insert a new student record
+  2. Search a student (by Roll No)
+  3. Modify a student record
+  4. Delete a student record
+  5. Display hash table(s)
+  6. Compare collision handling techniques
+  0. Exit
+====================================================
+Enter your choice : 
+---------------- SEARCH STUDENT RECORD ---------------
+Enter Roll No to search      : 
+  WITHOUT replacement : FOUND at index 12 (comparisons : 3)
+  WITH replacement    : FOUND at index 12 (comparisons : 3)
+
+=================== MAIN MENU ======================
+  1. Insert a new student record
+  2. Search a student (by Roll No)
+  3. Modify a student record
+  4. Delete a student record
+  5. Display hash table(s)
+  6. Compare collision handling techniques
+  0. Exit
+====================================================
+Enter your choice : 
+---------------- SEARCH STUDENT RECORD ---------------
+Enter Roll No to search      : 
+  WITHOUT replacement : NOT FOUND (comparisons : 0)
+  WITH replacement    : NOT FOUND (comparisons : 0)
+
+=================== MAIN MENU ======================
+  1. Insert a new student record
+  2. Search a student (by Roll No)
+  3. Modify a student record
+  4. Delete a student record
+  5. Display hash table(s)
+  6. Compare collision handling techniques
+  0. Exit
+====================================================
+Enter your choice : 
+---------------- MODIFY STUDENT RECORD ---------------
+Enter Roll No to modify      : Enter New Name               : Enter New DSA Marks          : Enter New Division           : 
+  [Linear Probing WITHOUT Replacement] Record at index 12 updated successfully.
+  [Linear Probing WITH Replacement] Record at index 12 updated successfully.
+
+=================== MAIN MENU ======================
+  1. Insert a new student record
+  2. Search a student (by Roll No)
+  3. Modify a student record
+  4. Delete a student record
+  5. Display hash table(s)
+  6. Compare collision handling techniques
+  0. Exit
+====================================================
+Enter your choice : 
+---------------- DELETE STUDENT RECORD ---------------
+Enter Roll No to delete      : 
+  [Linear Probing WITHOUT Replacement] Roll No 25 deleted from index 11 (slot marked DELETED).
+  [Linear Probing WITH Replacement] Roll No 25 deleted from index 13 (slot marked DELETED).
+
+=================== MAIN MENU ======================
+  1. Insert a new student record
+  2. Search a student (by Roll No)
+  3. Modify a student record
+  4. Delete a student record
+  5. Display hash table(s)
+  6. Compare collision handling techniques
+  0. Exit
+====================================================
+Enter your choice : 
+---------------- SEARCH STUDENT RECORD ---------------
+Enter Roll No to search      : 
+  WITHOUT replacement : FOUND at index 13 (comparisons : 2)
+  WITH replacement    : FOUND at index 11 (comparisons : 1)
+
+=================== MAIN MENU ======================
+  1. Insert a new student record
+  2. Search a student (by Roll No)
+  3. Modify a student record
+  4. Delete a student record
+  5. Display hash table(s)
+  6. Compare collision handling techniques
+  0. Exit
+====================================================
+Enter your choice : 
+------------- COMPARISON OF TECHNIQUES ---------------
+  (Same records stored using both collision handling methods)
+
+  --------------------------------------------------------------------------
+  | Technique                            |  Records | Collisions | Avg Cmp/Srch |
+  --------------------------------------------------------------------------
+  | Linear Probing WITHOUT Replacement   |        7 |         13 |         2.67 |
+  | Linear Probing WITH Replacement      |        7 |         15 |         1.67 |
+  --------------------------------------------------------------------------
+  Collisions = probes that hit an occupied slot during insertion
+  Avg Cmp/Srch = average comparisons per successful search
+  With replacement keeps more records near their home slot, so
+  successful searches usually need fewer comparisons.
+
+=================== MAIN MENU ======================
+  1. Insert a new student record
+  2. Search a student (by Roll No)
+  3. Modify a student record
+  4. Delete a student record
+  5. Display hash table(s)
+  6. Compare collision handling techniques
+  0. Exit
+====================================================
+Enter your choice : 
+Show (1) Without replacement only, (2) With replacement only, (3) Both : 
+
+  HASH TABLE : Linear Probing WITHOUT Replacement
+  -------------------------------------------------------------------------------
+  |  Idx | Home | Roll No | Name           |  Marks |  Div |    Status |
+  -------------------------------------------------------------------------------
+  |    0 |    0 |      11 | Arjun Shinde   |   65.0 |    A |  OCCUPIED |
+  |    1 |    1 |      31 | Omkar Bhosale  |   74.0 |    A |  OCCUPIED |
+  |    2 |    2 |       - | -              |      - |    - |     EMPTY |
+  |    3 |    3 |       - | -              |      - |    - |     EMPTY |
+  |    4 |    4 |       - | -              |      - |    - |     EMPTY |
+  |    5 |    5 |       - | -              |      - |    - |     EMPTY |
+  |    6 |    6 |      21 | Pooja Chavan   |   79.0 |    B |  OCCUPIED |
+  |    7 |    7 |       - | -              |      - |    - |     EMPTY |
+  |    8 |    8 |       - | -              |      - |    - |     EMPTY |
+  |    9 |    9 |       - | -              |      - |    - |     EMPTY |
+  |   10 |   10 |      10 | Anaya Deshmukh |   85.0 |    A |  OCCUPIED |
+  |   11 |   11 |       - | -              |      - |    - |   DELETED |
+  |   12 |   12 |      40 | Shravani S Pardeshi |   93.0 |    A |  OCCUPIED |
+  |   13 |   13 |      26 | Ishaan Joshi   |   78.0 |    B |  OCCUPIED |
+  |   14 |   14 |      55 | Sneha Kulkarni |   88.0 |    B |  OCCUPIED |
+  -------------------------------------------------------------------------------
+  Total records stored : 7 / 15
+
+  HASH TABLE : Linear Probing WITH Replacement
+  -------------------------------------------------------------------------------
+  |  Idx | Home | Roll No | Name           |  Marks |  Div |    Status |
+  -------------------------------------------------------------------------------
+  |    0 |    0 |      11 | Arjun Shinde   |   65.0 |    A |  OCCUPIED |
+  |    1 |    1 |      31 | Omkar Bhosale  |   74.0 |    A |  OCCUPIED |
+  |    2 |    2 |       - | -              |      - |    - |     EMPTY |
+  |    3 |    3 |       - | -              |      - |    - |     EMPTY |
+  |    4 |    4 |       - | -              |      - |    - |     EMPTY |
+  |    5 |    5 |       - | -              |      - |    - |     EMPTY |
+  |    6 |    6 |      21 | Pooja Chavan   |   79.0 |    B |  OCCUPIED |
+  |    7 |    7 |       - | -              |      - |    - |     EMPTY |
+  |    8 |    8 |       - | -              |      - |    - |     EMPTY |
+  |    9 |    9 |       - | -              |      - |    - |     EMPTY |
+  |   10 |   10 |      10 | Anaya Deshmukh |   85.0 |    A |  OCCUPIED |
+  |   11 |   11 |      26 | Ishaan Joshi   |   78.0 |    B |  OCCUPIED |
+  |   12 |   12 |      40 | Shravani S Pardeshi |   93.0 |    A |  OCCUPIED |
+  |   13 |   13 |       - | -              |      - |    - |   DELETED |
+  |   14 |   14 |      55 | Sneha Kulkarni |   88.0 |    B |  OCCUPIED |
+  -------------------------------------------------------------------------------
+  Total records stored : 7 / 15
+
+=================== MAIN MENU ======================
+  1. Insert a new student record
+  2. Search a student (by Roll No)
+  3. Modify a student record
+  4. Delete a student record
+  5. Display hash table(s)
+  6. Compare collision handling techniques
+  0. Exit
+====================================================
+Enter your choice : 
+Exiting... Thank you!
